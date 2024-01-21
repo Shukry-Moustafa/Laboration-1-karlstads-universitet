@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="utf-8">
+    <title>Nitrous Maximus beställ bil</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="CSS/mercedesstyle.css">
+  </head>
+  
+
+<body>
+
+    <header>
+        <a href="startsida.html" class="logo"> Nitrous Maximus AB</a>
+        <nav 
+            class="navigation"> 
+            <a href="startsida.html" target="_blank"> startsida </a>
+            <a href="vårabilar.html" target="_blank"> våra bilar </a>
+            <a href="kontaktsida.html" target="_blank"> kontakta oss </a>
+        </nav>
+
+    </header>
+
+    <section class="vårabilar" id="vårabilar">
+        <h2 class="titlet">Beställ en Mercedes-Benz E KLASS</h2>
+        <div class="content">
+            <div class="project-card">
+                <div class="project-image">
+                    <img width="700px" src="bilder/mercedes.jpg" />
+                </div>
+                <div class="project-info">
+                    <p class="project-category">Mercedes-Benz E-klass</p>
+                    <strong class="project-title">
+                        <span></span>
+                        <ul>
+                            <li><strong>Modell:</strong> Mercedes-Benz E-klass</li>
+                            <li><strong>Årsmodell:</strong> 2019</li>
+                            <li><strong>Miltal:</strong> 25 000 miles</li>
+                            <li><strong>Färg:</strong> Blå metallic</li>
+                            <li><strong>Bränsle:</strong> Diesel</li>
+                            <li><strong>Växellåda:</strong> Automatisk</li>
+                            <li><strong>Motor:</strong> Turbocharged V6, 3.0L</li>
+                            <li><strong>Skick:</strong> Utomordentligt, regelbundet underhållet</li>
+                            <li><strong>Pris:</strong> 500 000 SEK</li>
+                          </ul>
+                    </strong>
+
+                </div>
+
+                <br>
+
+                <article class="buy">
+                    <form action="#" method="post" id="carOrderForm">
+                        <section class="form-group">
+                            <label for="orderDate">Date:</label>
+                            <input type="date" min="2024-01-15" id="orderDate" name="orderDate" required>
+                        </section>
+            
+                        <section class="form-group">
+                            <label for="orderEmail">Email:</label>
+                            <input type="email" id="orderEmail" name="orderEmail" required>
+                        </section>
+            
+                        <section class="form-group">
+                            <label for="orderTel">Tel:</label>
+                            <input type="tel" id="orderTel" name="orderTel" required>
+                        </section>
+            
+                        <section class="form-group">
+                            <input type="submit" value="Beställ" onclick="resetForm()">
+                        </section>
+                    </form>
+                </article>
+                 </section>
+            </div>
+</body>
+
+</html>
